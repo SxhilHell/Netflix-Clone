@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assests/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    outline: 0;
+    border: 0;
+    background: #ff0b0b;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    margin-left: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    color: rgb(255, 255, 255);
+}
+
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email {
+    background-color: #fff;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+}
+
+.email input {
+    flex: 1;
+    outline: 0;
+    border: 0;
+    margin-left: 20px;
+}
+
+.email button {
+    background-color: #e50808;
+    padding: 20px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+
+/* --------features------ */
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+    border-top: 6px solid #333;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+
+.features h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.img-col video {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-right: 200px;
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+.faq .email {
+    margin: 20px auto 60px;
+    max-width: 600px;
+}
+.faq small {
+    font-size: 15px;
+    position: absolute;
+    margin-left: 35vw;
+
+}
+.footer {
+    padding: 50px 14% 15px;
+    border-top: 6px solid #333;
+    color: grey;
+}
+.footer h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.footer .col {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.footer .col a {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #777;
+}
+.footer .row {
+    padding: 10px 0;
+    align-items: flex-start;
+}
+.copy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
